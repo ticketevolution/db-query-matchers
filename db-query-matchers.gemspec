@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'activerecord',  '>= 4.0', "< 7"
   spec.add_development_dependency 'sqlite3'
-  spec.add_development_dependency "appraisal", "=> 2.0"
+  spec.add_development_dependency "appraisal", ">= 2.0"
 
   spec.required_ruby_version = ">= 1.9.2"
 end
